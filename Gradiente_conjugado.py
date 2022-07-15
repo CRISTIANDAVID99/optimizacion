@@ -18,7 +18,7 @@ for i in range(60):
     d0=dk
 
     x0=xk
-    xk=xk+0.01*dk
+    xk=xk-0.01*dk
 
     print(xk)
 print(f(xk))

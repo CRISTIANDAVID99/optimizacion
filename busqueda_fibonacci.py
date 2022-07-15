@@ -20,9 +20,10 @@ for n in range(1,1000):
 
 
     if(fx1>=fx2):
-        xl = x1    
+        
+        xh = x2  
     else:
-        xh = x2
+         xl = x1 
 
 print((xh+xl)/2)
 print(2*np.sin((xh+xl)/2)-(((xh+xl)/2)**2)/10)
